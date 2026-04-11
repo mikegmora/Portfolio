@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio projects by Michael Mora.">
+  <title>Portfolio | Michael Mora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Michael Mora home">
+        <span class="brand-mark">MM</span>
+        <span>
+          <strong>Michael Mora</strong>
+          <small>Junior Front End Developer</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a class="active" href="portfolio.html">Portfolio</a>
+        <a class="nav-button" href="Michael-Mora-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero section narrow">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Projects</h1>
+          <p class="lead">Here are some of my personal projects, you can view them by tapping on the images.</p>
+          <a class="button secondary github-cta" href="https://github.com/mikegmora" target="_blank"
+            rel="noopener noreferrer">Visit My GitHub</a>
+        </div>
+      </section>
+
+      <section class="section compact-top">
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <a class="project-media" href="https://bm6abb.pub.atoms.dev/" target="_blank" rel="noopener noreferrer"
+              aria-label="Open Caponera Mobile App">
+              <img src="assets/caponerahomepage.png" alt="Caponera Mobile App">
+            </a>
+            <div class="project-body">
+              <p class="project-number">01</p>
+              <h2>Caponera Web App</h2>
+              <p>This is the web preview version for a mobile app I am building. It connects riders with motorized
+                rickshaw drivers. The platform features interactive dashboards, a digital wallet, and tools for trip
+                management.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal delay-1">
+            <a class="project-media" href="#" aria-label="Open Portfolio Website">
+              <img src="assets/Productivity-Dashboard.png" alt="Student Productivity Dashboard">
+            </a>
+            <div class="project-body">
+              <p class="project-number">02</p>
+              <h2>Student Productivity Dashboard</h2>
+              <p>Clean planning, clear deadlines, and a focus timer that helps you study without bouncing between five
+                different apps.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>React</span><span>JavaScript</span><span>CSS</span><span>Local
+                  Storage</span><span>Vite</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal delay-2">
+            <a class="project-media" href="#" aria-label="Open Project Placeholder">
+              <span class="project-image-placeholder">Coming Soon</span>
+              <!--   </a>
+            <div class="project-body">
+              <p class="project-number">03</p>
+              <h2>Project Placeholder</h2>
+              <p>Use this space for your next finished build and update the summary after deployment.</p>
+              <div class="project-tags"><span>Frontend</span><span>UI</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <a class="project-media" href="#" aria-label="Open Project Placeholder">
+              <span class="project-image-placeholder">Project image</span>
+            </a>
+            <div class="project-body">
+              <p class="project-number">04</p>
+              <h2>Project Placeholder</h2>
+              <p>Add a landing page, app clone, or school project here once the final version is live.</p>
+              <div class="project-tags"><span>Responsive</span><span>Web</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal delay-1">
+            <a class="project-media" href="#" aria-label="Open Project Placeholder">
+              <span class="project-image-placeholder">Project image</span>
+            </a>
+            <div class="project-body">
+              <p class="project-number">05</p>
+              <h2>Project Placeholder</h2>
+              <p>Reserve this one for a JavaScript focused build that shows interactivity and logic.</p>
+              <div class="project-tags"><span>JavaScript</span><span>DOM</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal delay-2">
+            <a class="project-media" href="#" aria-label="Open Project Placeholder">
+              <span class="project-image-placeholder">Project image</span>
+            </a>
+            <div class="project-body">
+              <p class="project-number">06</p>
+              <h2>Project Placeholder</h2>
+              <p>Perfect spot for an academic project, Android concept, or UI redesign case study.</p>
+              <div class="project-tags"><span>Case Study</span><span>Design</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <a class="project-media" href="#" aria-label="Open Project Placeholder">
+              <span class="project-image-placeholder">Project image</span>
+            </a>
+            <div class="project-body">
+              <p class="project-number">07</p>
+              <h2>Project Placeholder</h2>
+              <p>Use this card for a project that highlights clean layout and responsive behavior.</p>
+              <div class="project-tags"><span>CSS</span><span>Layout</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal delay-1">
+            <a class="project-media" href="#" aria-label="Open Project Placeholder">
+              <span class="project-image-placeholder">Project image</span>
+            </a>
+            <div class="project-body">
+              <p class="project-number">08</p>
+              <h2>Project Placeholder</h2>
+              <p>Add another portfolio piece here once you deploy it and want it recruiter ready.</p>
+              <div class="project-tags"><span>Frontend</span><span>Build</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal delay-2">
+            <a class="project-media" href="#" aria-label="Open Project Placeholder">
+              <span class="project-image-placeholder">Project image</span>
+            </a>
+            <div class="project-body">
+              <p class="project-number">09</p>
+              <h2>Project Placeholder</h2>
+              <p>Keep one extra slot open so the portfolio can grow without redesigning the page.</p>
+              <div class="project-tags"><span>Future</span><span>Project</span></div>
+            </div> 
+          </article> -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built by Michael Mora.</p>
+      <div>
+        <a href="mailto:mikegmora1@gmail.com">Email</a>
+        <a href="https://github.com/mikegmora" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/michaelgmora/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
